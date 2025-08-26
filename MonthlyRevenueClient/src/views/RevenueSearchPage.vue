@@ -22,8 +22,8 @@
       <tbody>
         <tr v-for="item in revenues" :key="item.dataYearMonth">
           <td>{{ item.dataYearMonth }}</td>
-          <td>{{ formatNumber(item.monthlyRevenue) }}</td>
-          <td>{{ formatNumber(item.lastYearRevenue) }}</td>
+          <td>{{ item.monthlyRevenue }}</td>
+          <td>{{ item.lastYearRevenue }}</td>
           <td>{{ formatPercent(item.yoYGrowthPercent) }}</td>
         </tr>
       </tbody>
@@ -61,8 +61,7 @@ const fetchData = async () => {
   }
 };
 
-const formatNumber = (val: number) => val.toLocaleString();
-const formatPercent = (val: number) => `${val.toFixed(2)}%`;
+const formatPercent = (val: number) => `${val}%`;
 </script>
 
 <style scoped>
