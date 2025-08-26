@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqoqWz45P28=",
+  "dgSpecHash": "HQjtGCjXVYo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irvin\\OneDrive\\桌面\\MonthlyRevenue\\MonthlyRevenue\\MonthlyRevenue.csproj",
+  "projectFilePath": "C:\\GIT\\MonthlyRevenue\\MonthlyRevenueSystem\\MonthlyRevenue\\MonthlyRevenue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\irvin\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
     "C:\\Users\\irvin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
