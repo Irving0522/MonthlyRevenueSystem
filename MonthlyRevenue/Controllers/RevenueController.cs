@@ -15,14 +15,14 @@ namespace MonthlyRevenue.Controllers
             _service = service;
         }
 
-        [HttpGet]
+        [HttpGet("GetData")]
         public async Task<IActionResult> Get(string companyId)
         {
             var result = await _service.GetByCompanyIdAsync(companyId);
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("InsertData")]
         public async Task<IActionResult> Post([FromBody] CompanyRevenueDto dto)
         {
             await _service.InsertAsync(dto);
